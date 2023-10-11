@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app-container">
       <MyProvider>
-        <Header setIsSelected={setIsSelected} />
+        <Header setIsSelected={setIsSelected} isSelected={isSelected} />
         <Main isSelected={isSelected} />
       </MyProvider>
     </div>

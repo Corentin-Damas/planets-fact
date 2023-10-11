@@ -20,7 +20,7 @@ function PlanetGeneral({ step, setStep, planet }) {
           </svg>
         </a>
       </div>
-      <Step setStep={setStep} />
+      <Step setStep={setStep} step={step} planet={planet} />
     </div>
   );
 }

@@ -128,7 +128,6 @@ p {
   padding: 3.2rem;
   max-width: 1920px;
   margin-inline: auto;
-
 }
 .nav-bar {
   display: flex;
@@ -163,7 +162,7 @@ p {
 
 .planet-image-geo {
   width: 12rem;
-  
+
   position: absolute;
   top: 75%;
   left: 50%;
@@ -198,7 +197,7 @@ p {
   gap: 2rem;
 }
 .step-box:hover {
-  background-color: var(--cyan);
+  background-color: var(--grey-dark);
 }
 
 .step-title {
@@ -256,29 +255,6 @@ p {
 .nav-link:hover {
   color: var(--white);
 }
-
-.data-title {
-  border-radius: 1px;
-  border: 1px solid var(--grey-light);
-  padding: 2.8em 1.2em;
-
-  font-family: inherit;
-  background-color: transparent;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-.data-title:hover {
-  background-color: var(--grey-light);
-}
-.data-title:focus,
-.data-title:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-.data-title .active {
-  background-color: var(--cyan);
-}
-
 /* --- utilities --- */
 
 .u-white {
@@ -286,4 +262,62 @@ p {
 }
 .u-grey {
   color: var(--grey-light);
+}
+
+.u-active-Mercury {
+  background-color: var(--cyan);
+}
+.u-active-Venus {
+  background-color: var(--yellow);
+}
+.u-active-Earth {
+  background-color: var(--purple);
+}
+.u-active-Mars {
+  background-color: var(--orange-mat);
+}
+.u-active-Jupiter {
+  background-color: var(--orange-sat);
+}
+.u-active-Saturn {
+  background-color: var(--red);
+}
+.u-active-Uranus {
+  background-color: var(--green);
+}
+.u-active-Neptune {
+  background-color: var(--blue);
+}
+
+.u-nav-active-Mercury {
+  text-decoration: underline var(--cyan) 4px;
+  text-underline-offset: -5rem;
+}
+.u-nav-active-Venus {
+  text-decoration: underline var(--yellow) 4px;
+  text-underline-offset: -5rem;
+}
+.u-nav-active-Earth {
+  text-decoration: underline var(--purple) 4px;
+  text-underline-offset: -5rem;
+}
+.u-nav-active-Mars {
+  text-decoration: underline var(--orange-mat) 4px;
+  text-underline-offset: -5rem;
+}
+.u-nav-active-Jupiter {
+  text-decoration: underline var(--orange-sat) 4px;
+  text-underline-offset: -5rem;
+}
+.u-nav-active-Saturn {
+  text-decoration: underline var(--red) 4px;
+  text-underline-offset: -5rem;
+}
+.u-nav-active-Uranus {
+  text-decoration: underline var(--green) 4px;
+  text-underline-offset: -5rem;
+}
+.u-nav-active-Neptune {
+  text-decoration: underline var(--blue) 4px;
+  text-underline-offset: -5rem;
 }
