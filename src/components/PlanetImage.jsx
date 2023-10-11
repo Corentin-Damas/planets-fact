@@ -1,6 +1,6 @@
 function PlanetImage({ step, planet }) {
   return (
-    <div>
+    <div className="planets-imgs">
       {step == 1 && (
         <img className="planet-image" src={`${planet.images.planet}`} alt="" />
       )}

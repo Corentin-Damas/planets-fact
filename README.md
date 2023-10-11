@@ -4,6 +4,15 @@ This is a solution to the [Planets fact site challenge on Frontend Mentor](https
 ![](./preview.jpg)
 
 ## Overview
+### State of the project
+Globally Finished (main features and layouts)
+
+Some details that can be optimized :
+- The sub menu for mobile phone 
+- The General informations section for the tablet screen size is a bit too loose
+- Some Margin and padding that are Out of main Gap scale 
+
+
 
 ### The challenge
 
@@ -15,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./.jpg)
+![](./Result.png)
 
 ### Built with
 
